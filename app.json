@@ -1,0 +1,28 @@
+{
+  "name": "rn-object-classification",
+  "displayName": "rn-object-classification",
+  "expo": {
+    "name": "rn-object-classification",
+    "slug": "rn-object-classification",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f0575d94-59cb-44c5-b365-26770d30be77"
+      }
+    },
+    "android": {
+      "package": "com.eltonfernando.rnobjectclassification"
+    }
+  },
+  "plugins": [
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "The app accesses your photos to run them through object detection"
+      }
+    ]
+  ]
+}
